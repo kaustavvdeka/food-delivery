@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <link href=“https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap” rel=“stylesheet”>
+    <tittle>Foodely </tittle>
+    <script src="app.js"></script>
+</head>
+<body>
+    
+<div class="sidebar">
+    <h1 class="logo"><i>"FOODELY"</i></h1>
+    <div class="sidebar-menus"> 
+            <a href="index.htm"><ion-icon name="storefront-outline"></ion-icon>Home</a>
+            <a href="bills.php"><ion-icon name="receipt-outline"></ion-icon>Bills</a>
+            <a href="wallet.html"><ion-icon name="wallet-outline"></ion-icon>Wallet</a>
+            <a href="noti.html"><ion-icon name="notifications-outline"></ion-icon>Notification</a>
+            <a href="contact.html"><ion-icon name="chatbubbles-outline"></ion-icon>Contact Us</a>
+            <div class="sidebar-logout">
+                <a href="#"><ion-icon name="log-out-outline"></ion-icon>LogOut</a>
+        
+            </div>
+    </div>
+    
+</div>
+<div class="main">
+    <div class="main-navbar">
+        <ion-icon class="menu-toggle" name="menu-outline"></ion-icon>
+        <div class="search">
+            <input type="text" placeholder="What you want to eat?">
+            <button class="search-btn">Search</button>
+        </div>
+        <div class="profile">
+            <a class="cart" href="cart.php"><ion-icon  name="cart-outline"></ion-icon></a>
+            <a class="user" href="profile.php"><ion-icon name="person-outline"></ion-icon></a>
+        </div>
+    </div>
+    <div class="main-highlight">
+        <div class="main-header">
+            <h3 class="main-tittle">Recomendations</h3>
+            <div class="main-arrow">
+                <ion-icon class="back" name="chevron-back-circle-outline"></ion-icon>
+                <ion-icon class="next" name="chevron-forward-circle-outline"></ion-icon>
+            </div>
+    
+        </div>
+        <div class="highlight-wrapper">
+            <div class="highlight-card">
+                <img class="highlight-img" src="C:\Users\Admin\OneDrive\Pictures\project\WhatsApp Image 2024-10-18 at 13.31.00_bb2f5a65.jpg">
+                <div class="highlight-desc">
+                    <h4>Testy Chicken</h4>
+                    <p>$250</p>
+                </div>
+            </div>
+       
+       <div class="highlight-card">
+        <img class="highlight-img" src="C:\Users\Admin\OneDrive\Pictures\project\WhatsApp Image 2024-10-18 at 13.30.54_0b19235b.jpg">
+        <div class="highlight-desk">
+            <h4>Cafe Latte</h4>
+            <p>$100</p> 
+        </div>
+       </div> 
+       <div class="highlight-card">
+        <img class="highlight-img" src="C:\Users\Admin\OneDrive\Pictures\project\WhatsApp Image 2024-10-18 at 13.54.19_f6c1c8d3.jpg">
+        <h4>Idli Sambar</h4>
+        <p>$200</p>
+       </div>
+    </div>
+       <div class="main-menus">
+        <div class="main-filter">
+            <div>
+                <h2 class="main-tittle">Menu</h2>
+                <div class="main-arrow">
+                    <ion-icon class="back-menus" name="chevon-back-circle-outline"></ion-icon>
+                    <ion-icon class="back-menus" name="chevon-forward-circle-outline"></ion-icon>
+                </div>
+            </div>
+            <div class="filter-wrapper">
+                <div class="filter-card">
+                    <div class="filter-icon">
+                        <ion-icon name="restaurant-outline"></ion-icon>
+                    </div>
+                    <p>All Menus</p>
+                </div>
+                <div class="filter-card">
+                    <div class="filter-icon">
+                        <ion-icon name="fast-food-outline"></ion-icon>
+                    </div>
+                    <p>Burger</p>
+                </div>
+                <div class="filter-card">
+                    <div class="filter-icon">
+                        <ion-icon name="pizza-outline"></ion-icon>
+                    </div>
+                    <p>Pizza</p>
+                </div>
+                <div class="filter-card">
+                    <div class="filter-icon">
+                        <ion-icon name="wine-outline"></ion-icon>
+                    </div>
+                    <p>wine</p>
+                </div>
+                <div class="filter-card">
+                    <div class="filter-icon">
+                        <ion-icon name="ice-cream-outline"></ion-icon>
+                    </div>
+                    <p>Ice-cream</p>
+                </div>
+                <div class="filter-card">
+                    <div class="filter-icon">
+                        <ion-icon name="cafe-outline"></ion-icon>
+                    </div>
+                    <p>Coffe</p>
+                </div>
+                <div class="filter-card">
+                    <div class="filter-icon">
+                        <ion-icon name="fish-outline"></ion-icon>
+                    </div>
+                    <p>SeaFood</p>
+                </div>
+                <div class="filter-card">
+                    <div class="filter-icon">
+                        <ion-icon name="nutrition-outline"></ion-icon>
+                    </div>
+                
+                    <p>Healthy</p>
+                </div>
+            </div>
+            </div>
+        </div>
+       </div>
+       <hr class="divider">
+       
+       <div class="main-detail">
+         <h2 class="main-tittle">Choose Order</h2>
+         <div class="detail-wrapper">
+            <div class="detail-card" >
+                <img class="detail-img" src="C:\Users\Admin\OneDrive\Pictures\project\WhatsApp Image 2024-10-18 at 13.55.19_11a219b4.jpg">
+                <div class="detail-desk">
+                    <div class="detail-name">
+                     <h4>Soup</h4>
+                     <p class="detail-sub">fentastic asthetic aati uttam sabse behetar Soup</p>
+                     <p class="price">$150</p>
+                     <form action="cart.php" method="post">
+                     <input type="number" value=0 id="sp" name="sp">
+                     <input type="submit"></form>
+                    </div>
+                     <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                </div>
+            </div>
+            <div class="detail-card">
+                <img class="detail-img" src="C:\Users\Admin\OneDrive\Pictures\project\WhatsApp Image 2024-10-18 at 13.55.00_f39d4485.jpg">
+                <div class="detail-desk">
+                    <div class="detail-name">
+                        <h4>Poha with Jeleebi</h4>
+                        <p class="detail-sub">fentastic asthetic extreme sweet in Indoori style</p>
+                        <p class="price">$169</p>
+                        <form action="cart.php" method="post">
+                        <input type="number" value=0 id="tp" name="tp">
+                        <input type="submit"></form>
+
+                    </div>
+                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                </div> 
+            </div>
+            <div class="detail-card">
+                <img class="detail-img" src="C:\Users\Admin\OneDrive\Pictures\project\WhatsApp Image 2024-10-18 at 13.58.51_40823d2e.jpg">
+                <div class="detail-desk">
+                    <div class="detail-name">
+                        <h4>Masaala Dosa</h4>
+                        <p class="detail-sub">fentastic asthetic Masaaledaar Dooooosaaaa</p>
+                        <p class="price">$269</p>
+                        <form action="cart.php" method="post">
+                        <input type="number" value=0 id="up" name="up">
+                     <input type="submit"></form>
+
+                    </div>
+                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                </div>
+            </div>
+            <div class="detail-card">
+                <img class="detail-img" src="C:\Users\Admin\OneDrive\Pictures\project\WhatsApp Image 2024-10-18 at 13.54.54_2c5a36d5.jpg">
+                <div class="detail-desk">
+                    <div class="detail-name">
+                        <h4>Paratha Sabjii</h4>
+                        <p class="detail-sub">fentastic asthetic Masaaledaar Parathaa</p>
+                        <p class="price">$40</p>
+                        <form action="cart.php" method="post">
+                        <input type="number" value=0 id="vp" name="vp">
+                     <input type="submit"></form>
+
+                    </div>
+                    <ion-icon class="detail-favorites" name="bookmark-outline"></ion-icon>
+                </div>
+            </div>
+         </div>
+       </div>
+       </div>
+    
+    </div>
+</div>
+
+
+</body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>   
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="fody.js"> </script>
+</html>

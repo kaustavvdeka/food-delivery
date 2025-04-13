@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery Notifications</title>
+    <style>
+       
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        
+        .notification-container {
+            width: 80%;
+            margin: 40px auto;
+            background-color: #990707;
+            padding: 20px;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .notification-header {
+            background-color: #9faaad;
+            color: #000000;
+            padding: 10px;
+            text-align: center;
+            border-bottom: 1px solid #333;
+        }
+        
+        .notification-body {
+            padding: 20px;
+        }
+        
+        .notification-body ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .notification-body li {
+            background-color: #f7f7f7;
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+        
+        .notification-body li:last-child {
+            border-bottom: none;
+        }
+        
+        .order-details {
+            font-weight: bold;
+        }
+        
+        .order-status {
+            color: #008000; /* green */
+        }
+        
+        .order-cancelled {
+            color: #ff0000; /* red */
+        }
+    </style>
+</head>
+<body>
+    <div class="notification-container">
+        <div class="notification-header">
+            <h2>Food Delivery Notifications</h2>
+        </div>
+        <div class="notification-body">
+            <ul>
+                <li>
+                    <h3>New Order</h3>
+                    <p class="order-details">Order #1234: Pizza, Burger, Fries</p>
+                    <p class="order-status">Order confirmed. Estimated delivery time: 30 minutes.</p>
+                    <p>Order succesfully delivered</p>
+                </li>
+                <li>
+                    <h3>Order Update</h3>
+                    <p class="order-details">Order #1235: Chicken Sandwich, Salad</p>
+                    <p class="order-status">Order is out for delivery. Estimated delivery time: 15 minutes.</p>
+                    <p>Order succesfully delivered</p>
+                </li>
+                <li>
+                    <h3>Order Cancelled</h3>
+                    <p class="order-details">Order #1236: Veggie Burger, Fries</p>
+                    <p class="order-cancelled">Order cancelled due to unavailable items.</p>
+                </li>
+            </ul>
+        </div>
+    </div><center>
+    <a href="index.htm"><ion-icon name="storefront-outline"></ion-icon>Home</a></center>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>   
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+</body>
+</html>
